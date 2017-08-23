@@ -31,8 +31,8 @@ public class TestBatis {
 //        System.out.println(students);
 
         Student student = new Student();
-        student.setName("哦哦哦");
-        student.setHobby("1111");
+        student.setName("胖虎");
+        student.setHobby("不知道");
         student.setSex("male");
 
         Integer i = mapper.insertNewStudent(student);
