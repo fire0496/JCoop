@@ -32,7 +32,7 @@ public class TestBatis {
 
         Student student = new Student();
         student.setName("哦哦哦");
-        student.setHobby("1111");
+        student.setHobby("1991-07-28");
         student.setSex("male");
 
         Integer i = mapper.insertNewStudent(student);
